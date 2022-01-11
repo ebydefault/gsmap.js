@@ -1,6 +1,6 @@
 #   GSMap.js
 
-Create map from Google Sheets with Google Maps Javascript API
+Create map from Google Sheets with Google Maps JavaScript API
 ([demo](https://map.solidaritas.com)).
 
 ##  Features
