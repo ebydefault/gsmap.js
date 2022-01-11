@@ -1,7 +1,7 @@
 /*
  * gsmap.js
  *
- * Create map from Google Sheets with Google Maps Javascript API
+ * Create map from Google Sheets with Google Maps JavaScript API
  *
  *
  * Copyright 2021 Wardhana <ellam.bydefault@gmail.com>
