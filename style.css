@@ -1,0 +1,64 @@
+/* Always set the map height explicitly to define the size of the div */
+/* element that contains the map. */
+#map {
+  height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.marker-info {
+  font-size: 1.25em;
+}
+.marker-info::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.marker-info img {
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: contain;
+  display: block;
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+.marker-info h1 {
+  text-align: right;
+}
+.marker-info table {
+  border-collapse: collapse;
+}
+/***
+.marker-info tr {
+  border-bottom: 1px solid #aaa;
+}
+.marker-info tr:last-child {
+  border: none;
+}
+***/
+.marker-info tr:nth-child(even) {
+  background-color: #F2F3F4;
+}
+.marker-info td {
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+.marker-info td:first-child {
+  font-weight: bold;
+}
+.marker-info td:nth-child(2) {
+  font-weight: bold;
+  width: 1em;
+}
+/* Cluster text container */
+div.cluster > div > span {
+  font-size: 1.25em;
+  color: #fff;
+  text-shadow: .1em .1em .2em #000;
+}
