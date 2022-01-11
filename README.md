@@ -37,9 +37,10 @@ Create map from Google Sheets with Google Maps Javascript API
 
 4.  Arrange map data in Google Sheets as follows:
 
-    -  **Column A**: Info window title / ID.
-    -  **Column B & C**: Latitude & longitude respectively.
-    -  **Column D**: Info window image.
+    -  First row: Column titles. Name them anything as you want.
+    -  Column A: Info window title / ID.
+    -  Column B & C: Latitude & longitude respectively.
+    -  Column D: Info window image.
     -  Other columns: Info lines, as many as you want.
 
 5.  Get a web server to test.
